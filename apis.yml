@@ -1,7 +1,29 @@
 aid: cucumbertown
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cucumbertown.png
 name: CucumberTown
-description: CucumberTown is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Cucumbertown was a recipe network and food-blogging platform ("a Tumblr for
+  recipes") founded around 2011-2012 in Palo Alto, California by Cherian Thomas,
+  Chris Luscher, Arun Prabhakar and Dan Hauk, and backed by 500 Startups (now
+  500 Global) among other angel investors. It let home cooks and food bloggers
+  publish, structure, and share recipes on a hosted network. Cucumbertown was
+  acquired by the Japanese recipe network Cookpad in June 2015 and was fully
+  shut down by March 31, 2017 for lack of a sustainable business model. The
+  company is defunct and operates no public API or developer program. The
+  cucumbertown.com domain now 302-redirects to Samsung Food
+  (app.samsungfood.com, formerly Whisk), an unrelated successor product; none of
+  the artifacts served on that host belong to Cucumbertown.
 url: https://raw.githubusercontent.com/api-evangelist/cucumbertown/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +31,22 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-lifecycle-status: defunct
+x-shutdown-date: '2017-03-31'
+x-acquired-by: cookpad
+x-domain-redirects-to: https://app.samsungfood.com
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Defunct
+- Recipes
+- Food
+- Food Blogging
+- Cooking
+- Consumer
+- Social Network
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +56,10 @@ maintainers:
 common:
 - type: Website
   url: https://cucumbertown.com
+- type: Wikipedia
+  url: https://en.wikipedia.org/wiki/Cucumbertown
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
