@@ -35,7 +35,7 @@ x-lifecycle-status: defunct
 x-shutdown-date: '2017-03-31'
 x-acquired-by: cookpad
 x-domain-redirects-to: https://app.samsungfood.com
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 tags:
