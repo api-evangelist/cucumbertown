@@ -18,29 +18,28 @@ accessModel:
   public: false
   label: Unknown
   confidence: low
-  source: []
+  source:
+  - url: https://cucumbertown.com
+    status: 301
+    note: declared website redirects to https://app.samsungfood.com/?utm_source=cucumbertown&utm_medium=redirect&utm_campaign=domain
+      — a different registrable domain (cucumbertown.com -> samsungfood.com), possible rename or acquisition
+      (probed 2026-09-03, roadmap#169)
   generated: '2026-07-22'
   method: derived
-  source:
-  - {url: 'https://cucumbertown.com', status: 301, note: 'declared website redirects to https://app.samsungfood.com/?utm_source=cucumbertown&utm_medium=redirect&utm_campaign=domain — a different registrable domain (cucumbertown.com -> samsungfood.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cucumbertown.png
 name: CucumberTown
-description: >-
-  Cucumbertown was a recipe network and food-blogging platform ("a Tumblr for
-  recipes") founded around 2011-2012 in Palo Alto, California by Cherian Thomas,
-  Chris Luscher, Arun Prabhakar and Dan Hauk, and backed by 500 Startups (now
-  500 Global) among other angel investors. It let home cooks and food bloggers
-  publish, structure, and share recipes on a hosted network. Cucumbertown was
-  acquired by the Japanese recipe network Cookpad in June 2015 and was fully
-  shut down by March 31, 2017 for lack of a sustainable business model. The
-  company is defunct and operates no public API or developer program. The
-  cucumbertown.com domain now 302-redirects to Samsung Food
-  (app.samsungfood.com, formerly Whisk), an unrelated successor product; none of
-  the artifacts served on that host belong to Cucumbertown.
+description: Cucumbertown was a recipe network and food-blogging platform ("a Tumblr for recipes") founded
+  around 2011-2012 in Palo Alto, California by Cherian Thomas, Chris Luscher, Arun Prabhakar and Dan Hauk,
+  and backed by 500 Startups (now 500 Global) among other angel investors. It let home cooks and food
+  bloggers publish, structure, and share recipes on a hosted network. Cucumbertown was acquired by the
+  Japanese recipe network Cookpad in June 2015 and was fully shut down by March 31, 2017 for lack of a
+  sustainable business model. The company is defunct and operates no public API or developer program.
+  The cucumbertown.com domain now 302-redirects to Samsung Food (app.samsungfood.com, formerly Whisk),
+  an unrelated successor product; none of the artifacts served on that host belong to Cucumbertown.
 url: https://raw.githubusercontent.com/api-evangelist/cucumbertown/refs/heads/main/apis.yml
 x-api-posture: no-product-api
 x-api-posture-basis: observed
-x-api-posture-note: "The company is defunct and operates no public API or developer program."
+x-api-posture-note: The company is defunct and operates no public API or developer program.
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -53,7 +52,7 @@ x-acquired-by: cookpad
 x-domain-redirects-to: https://app.samsungfood.com
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-18'
+modified: '2026-09-15'
 tags:
 - Company
 - Defunct
@@ -79,3 +78,4 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-status: defunct
